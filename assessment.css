@@ -1,0 +1,43 @@
+/*use class="subjectHeader" to target all headers
+	do 7 before 6 - 6 is tricky - background image for list item, first or last element? look at pseudo-class page in material 
+	- how fit to space? stretch, repeat? use same URL
+	target set so bullets don't show, only check boxes
+	stretch goals are real brainers
+*/
+
+.subjectHeader {
+	color: #4EBAAD;
+	font-family: Montserrat, Arial;
+}
+
+th {
+  border: 2px solid black; /* Adjust thickness, style, and color */
+  padding: 8px; /* Optional: for spacing */
+  background-color: #f2f2f2; /* Optional: to make header stand out */
+}
+
+#scoreBoard {	
+  	border: 2px solid;
+  	border-color: orangered;
+	text-align: center;
+}
+
+#teamRoster {
+	list-style-type: square;
+}
+
+a:hover {
+  background-color: #ffeeba; 
+  text-decoration: none; 
+}
+
+blockquote {
+  background-color: #333; 
+  color: #f9f9f9;     
+  font-style: italic;
+}
+
+#checkbox-grid {
+  list-style-type: none;
+}
+
