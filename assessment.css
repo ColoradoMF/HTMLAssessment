@@ -41,3 +41,34 @@ blockquote {
   list-style-type: none;
 }
 
+#teamRoster li {
+  position: relative;
+  padding-left: 50px;
+  min-height: 40px;
+}
+
+#teamRoster li > img:first-child {
+  height: 40px;
+  width: auto;
+  opacity: 0.2;
+  z-index: 0;
+  pointer-events: none;
+}
+
+#teamRoster li > *:not(img:first-child) {
+  position: relative;
+  z-index: 1;
+}
+
+#teamRoster ol > li:first-child {
+  font-weight: bold;
+}
+
+#scoreBoard tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+#scoreBoard tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
